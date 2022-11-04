@@ -665,7 +665,7 @@ form {
   background-color: #fff;
   padding: 10px;
   margin-left: 100px;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 input[type=text] {
   width: 44%;
@@ -690,4 +690,9 @@ input[type=submit] {
   color: #fff;
   padding: 10px;
   margin-left: 300px;
+  margin-top: 50px;
+}
+.map {
+  margin-top: 20px;
+  padding-top: 20px;
 }
