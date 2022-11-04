@@ -659,33 +659,32 @@ margin-left: 120px;
 .finalflex {
   display: flex;
 }
-form {
+.finalflex form {
   border: 1px solid transparent;
   width: 150%;
   background-color: #fff;
   padding: 10px;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 80px;
 }
-input[type=text] {
+.finalflex input[type=text] {
   width: 44%;
   padding: 10px;
 }
-input[type=subject] {
+.finalflex input[type=subject] {
   width: 89%;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
 }
-input[type=message] {
+.finalflex input[type=message] {
   width: 89%;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
   height: 200px;
-  /* text-align: top; */
 }
-input[type=submit] {
+.finalflex input[type=submit] {
   background-color: var(--primary-color);
   color: #fff;
   padding: 10px;
@@ -693,6 +692,92 @@ input[type=submit] {
   margin-top: 50px;
 }
 .map {
-  margin-top: 20px;
-  padding-top: 20px;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+/*********************FOOTER*******************/
+FOOTER {
+  background-color: #263f49;
+  font-size: 14px;
+  color: #fff;
+  padding: 60px 0 30px 0;
+}
+.ftop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.ftopcontainer {
+  background-color: #fff;
+  margin-bottom: 15px;
+  margin-top: -90px;
+  border-top: 4px solid var(--primary-color);
+  padding: 5px;
+}
+.ftopcontainer p {
+  color: var(--paragraph-color);
+  text-align: center;
+  line-height: 1.8em;
+}
+.ftopcontainer i {
+  color: #263f49;
+  font-size: 2em;
+  margin-left: 30px;
+}
+.ftopcontainer h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+.useful h4, ul, li {
+  padding-top: 10px;
+  font-size: 1.1em;
+}
+.useful li {
+  list-style-type: none;
+}
+.useful a {
+  text-decoration: none;
+  color: #fff;
+}
+.useful i {
+  color: var(--primary-color);
+}
+.ourservice h4, ul, li {
+  padding-top: 10px;
+  font-size: 1.1em;
+}
+.ourservice li {
+  list-style-type: none;
+}
+.ourservice a {
+  text-decoration: none;
+  color: #fff;
+}
+.ourservice i {
+  color: var(--primary-color);
+}
+.newsletter h4 {
+  margin-bottom: 40px;
+}
+.newsletter p {
+  margin-bottom: 40px;
+}
+.newsletter input[type=email] {
+  padding:0 50px 0 0;
+}
+.newsletter input[type=submit] {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+/* .hr {
+  color: var(--primary-color);
+  font-size: x-small;
+} */
+.fbottom {
+  text-align: center;
+}
+.fbottom h4 {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
